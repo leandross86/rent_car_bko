@@ -2,13 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #6f94e6;
+}
+
+h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #2e3030;
 }
 
 body {
     width: 50%;
     margin: 2rem auto;
+    font-family: 'Quicksand', sans-serif;
 }
 
+#name, #license {
+    background-color: #ddd;
+    border-radius: 5px;
+}
 div {
     display: grid;
     grid-template-columns: 1fr;
@@ -17,28 +30,51 @@ div {
 }
 
 input, button {
-    width: 98%;
+    width: 96%;
     padding: 0.6rem 0.4rem;
-    margin: 0.4rem;
+    margin: 0.7rem;
+    align-items: center;
+    border-radius: 5px;
 }
 
-button {
-    text-decoration: none;
+.send{
+    background-color: #6f94e6;
+    transition: 0.3;
     border: none;
     display: block;
     cursor: pointer;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgray;
 }
 
+/* button {
+    text-decoration: none;
+    border: none;
+    display: block;
+    text-align: center;
+    
+    
+} */
+button:hover{
+    transform: scale(1.04);
+}
 
-.success {
+.send {
     background-color: rgb(54, 80, 231);
     color: rgb(255, 255, 255);
 }
 
 .delete {
-    background-color: rgb(231, 54, 54);
+    background-color: rgb(175, 47, 47);
     color: rgb(255, 255, 255);
+    width: 96%;
+    padding: 0.6rem 0.4rem;
+    margin: 0.4rem;
+    margin-right: 20px;
+    cursor: pointer;
+    
 }
 
 
