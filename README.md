@@ -7,9 +7,7 @@
 <a href="./LICENSE">
 <img src="https://img.shields.io/github/license/leandross86/rent_car_bko"/>
 </a>
-
 <img src="https://img.shields.io/github/languages/code-size/leandross86/rent_car_bko"/>
-
 <img src="https://img.shields.io/badge/bko-v1.0.0-green" />
 
 ## 📁Indice
