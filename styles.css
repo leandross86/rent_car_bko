@@ -73,10 +73,8 @@ button:hover{
     padding: 0.6rem 0.4rem;
     margin: 0.4rem;
     margin-right: 20px;
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
-
 
 table {
     background-color: #eee;
@@ -89,4 +87,11 @@ th, td {
     padding: 5px 25px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+}
+.footer{
+    margin-top: 98%;
+    padding: 3px;
+    background-color: #6f94e6;
+    display: flex;
+    justify-content: center;
 }
